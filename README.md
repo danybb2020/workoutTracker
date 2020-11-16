@@ -6,3 +6,4 @@ User is able to view create and track daily workouts. They are able to log multi
 
 A consumer will reach their fitness goals more quickly when they track their workout progress.
 
+<img width="1180" alt="workout" src="https://user-images.githubusercontent.com/65620789/99219066-b9264900-2790-11eb-9e1d-991c58bd6aee.png">
