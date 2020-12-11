@@ -1,5 +1,6 @@
 const router = require("express").Router();
 const path = require("path")
+const Workout = require ("../models/workout")
 
 router.post("/api/workouts", (req,res) => {
     Workout.create ({})

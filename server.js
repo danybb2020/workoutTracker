@@ -16,13 +16,13 @@ mongoose.connect( "mongodb://localhost/wtracker", {
     useFindAndModify: false, 
 });
 
-app.use(require(".roures/api.js"));
-app.use(require(".roures/views.js"));
+app.use(require("./routes/api.js"));
+app.use(require("./routes/views.js"));
 
 
 
 app.listen(PORT, () => {
-    console.log(`------- App running on port ${PORT}!`);
+    console.log(`---------- App running on Port ${PORT}!`);
 });
 
 
